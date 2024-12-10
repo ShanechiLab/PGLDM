@@ -42,6 +42,9 @@ Run the demo notebook locally using jupyter notebook. You may need to change the
 ## PGLDM Tutorial
 We provide a [tutorial notebook](https://github.com/ShanechiLab/PGLDM/blob/master/PGLDM_Demo.ipynb) demonstrating usage of PGLDM across several different generalized-linear time-series observation pairs.
 
+### Sample data for the tutorial
+Sample data can be found in [this Google Drive folder](https://drive.google.com/drive/folders/1-b0tmYm6W4VGOV8j6LYAlBq13sSTiiR7?usp=sharing). The notebook expects the data to be stored in the base directory as ```/path/to/PGLDM/sample_data/```
+
 ## Troubleshooting
 
 Please feel free to email or file GitHub issues if you have any questions, find any bugs, or run into problems getting setup.
