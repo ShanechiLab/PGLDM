@@ -1,0 +1,17 @@
+cvxpy
+h5py
+ipykernel
+ipython
+jupyter-client
+jupyter-core
+matplotlib
+nose
+nose2
+numpy
+pickleshare
+Pillow
+psutil
+scikit-learn
+scipy
+six
+statsmodels
