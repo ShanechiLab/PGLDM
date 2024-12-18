@@ -20,7 +20,7 @@ class RegressionModel(model_base.Model):
 			self.model = LinearRegression(**kwargs)
 			self.model.fit(regressor, data)
 		else:
-			raise NotImplementError('Only ridge regression supported now for decoding.')
+			raise NotImplementedError('Only ridge regression supported now for decoding.')
 		return True
 
 	def predict(self, data):
@@ -46,7 +46,7 @@ class RegressionModel(model_base.Model):
 		return self.weights()
 
 	def update_params(self, new_params):
-		raise NotImplementError('No support for updating params yet.')
+		raise NotImplementedError('No support for updating params yet.')
 
 	# Abstract method, needs implementation, but similarity transform doesn't
 	# exist for regression models.

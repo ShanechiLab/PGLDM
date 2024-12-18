@@ -227,7 +227,7 @@ def construct_future_past_stacked_correlation(observation_mat, horizon,
         observation matrix and two horizons are provided.
   """
   Ostacked = construct_future_past_stacked_hankel(observation_mat, horizon,
-    observation_mat2=observation_mat2, secondary_horizon=second_horizon)
+    observation_mat2=observation_mat2, secondary_horizon=secondary_horizon)
   if demean:
     Ostacked -= np.mean(Ostacked, axis=1).reshape((Ostacked.shape[0], 1))
-  return (Ostacked @ Ostacked.T) / j
+  return (Ostacked @ Ostacked.T) / Ostacked.shape[1]

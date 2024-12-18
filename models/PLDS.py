@@ -146,7 +146,7 @@ class PLDS(model_base.Model):
         xp, Pp = propagate(xp, Pp)
 
     if return_all:
-      return all_Xp, all_Xu, all_Pu, all_Sp
+      return all_Xp, all_Pp, all_Xu, all_Pu
     return all_Xp, all_Pp
 
   def is_stable(self):
